@@ -15,7 +15,7 @@ const Admin = require('./models/Admin'); // Adjust path if needed
 
 // 2. IMPORTANT: Use CORS before any routes
 app.use(cors({
-    origin: ["http://localhost:5173", "https://your-society-hub.vercel.app"], 
+    origin: ["http://localhost:5173", "https://society-hub-eight.vercel.app"], 
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }));
