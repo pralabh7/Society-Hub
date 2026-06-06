@@ -1,6 +1,4 @@
-// apiConfig.js
-const API_BASE_URL = process.env.NODE_ENV === 'production' 
-    ? "https://society-hub-backend.onrender.com" // Your Render URL
-    : "http://localhost:5000";
+// Hardcoded Live Render URL for absolute production stability
+const API_BASE_URL = 'https://society-hub-backend.onrender.com';
 
 export default API_BASE_URL;
